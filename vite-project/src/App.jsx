@@ -1,15 +1,13 @@
 
 import "./App.css";
-import Product from "/workspaces/react_new/vite-project/src/Product.jsx";
+import Product from "./Product";
 
-function Title(){
-  return <h1>I am the title!</h1>;
-}
 
 
 function App() {
   return <div>
-    <Product />
+    <Product name="Mouse" description="8,000 DPI" idx={0}/>
+    <Product name="Keyboard" description="touch" idx={1}/>
     </div>
    
 }
