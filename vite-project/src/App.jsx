@@ -1,13 +1,14 @@
 
 import "./App.css";
+import LikeButton from "./LikeButton";
 import Product from "./Product";
+import TodoList from "./TodoList";
 
 
 
 function App() {
   return <div>
-    <Product name="Mouse" description="8,000 DPI" idx={0}/>
-    <Product name="Keyboard" description="touch" idx={1}/>
+    <TodoList/>
     </div>
    
 }
